@@ -1,0 +1,22 @@
+/* Style for "JETRO" */
+.col-xl-2 {
+width: 87px;
+height: 34px;
+color: #e8603c;
+font-family: Bebas;
+font-size: 36px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;}
+.JET first part {
+colorstyle: normal;
+letter-spacing: normal;
+line-height: normal; }
+.RO second part {
+color: #f3af9d;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;}
