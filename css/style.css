@@ -17,47 +17,71 @@ a {
     text-decoration: none;
 }
 
-button {
-    font-family: inherit;
-}
-
   body {
     background-color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
     font-weight: var(--bold-font-weight);
     letter-spacing: var(--letter-spacing);
     line-height: 1.39;
-  }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    color:var(--black-color);
+    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 /* логотип */
-  .logo-item-blue {
-      font-family: var(--bold-font-weight);
-      color: var(--accent-color);
-      font-family: 'Raleway', sans-serif;
-      font-size: 26px;
-   }
+    .logo-item-blue {
+    font-family: var(--bold-font-weight);
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    }
 
-.header-studio {
-  font-weight: var(--bold-font-weight);
-  color: var(--black-color);
-  font-size: 26px;
-  }
+    .logo-item-studio {
+    font-weight: var(--bold-font-weight);
+    color: var(--black-color);
+    font-size: 26px;
+    }
+    /* навігаці сайту */
     .navigation-link:hover, :focus
-    {
+    {     
       color: var(--accent-color);
     }
-   
-    .navigation-link {
-      font-size: 26px;
-      line-height: 1.38;
-}
 
-    .navigation-contact: var(--primary-text-color):focus, :hover
-    {
-       color: var(--accent-color);
-       text-color: var(--black-color)
+    .navigation-link {
+    font-weight: var(--medium-font-weight);
+    font-size: 14px;
+    line-height: 1.38;
+    color: #000000;
     }
+
+    .navigation-link-adress:hover, :focus {
+    color: var(--accent-color);
+    }
+
+    .navigation-link-adress {
+    color: var(--accent-color);
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+    }
+    
+    .button-title:hover, :focus 
+    {
+      background-color: var(--accent-color);
+    }
+
+    button
+     {
+           font-family: inherit;
+     }
+    .button-title {
+      background-color: ##F5F4FA;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 1.62;
+    }
+    
+
+     
