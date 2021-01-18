@@ -12,7 +12,16 @@
     --medium-font-weight: 500;
     --primery-letter-spacing: 0.03em;
     }
-
+  .visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+   clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+  }
     a {
         text-decoration: none;
       }
@@ -47,7 +56,8 @@
     }
       
      /* навігаці сайту */
-    .navigation-link:hover, :focus {     
+    .navigation-link:hover,
+    .navigation-link:focus {
       color: var(--accent-color);
     }
 
@@ -58,7 +68,8 @@
     color: #000000;
     }
 
-    .navigation-link-adress:hover, :focus {
+    .navigation-link-adress:hover,
+    .navigation-link-adress:focus {
     color: var(--accent-color);
     }
 
@@ -70,7 +81,8 @@
     }
    
     /* button */
-    .button-title:hover, :focus {
+    .button-title:hover,
+    .button-title:focus {
       background-color: var(--accent-color);
     }
 
@@ -79,7 +91,7 @@
     }
 
     .button-title {
-    background-color: ##F5F4FA;
+    background-color: var(--secondary-background-color);
     border-radius: 4px;
     font-size: 14px;
     line-height: 1.622;
@@ -121,12 +133,11 @@
     }
 
     .footer-contacts-link:hover,
-    :focus {
+    .footer-contacts-link:focus {
     color: var(--focus-text-color);
     }
 
-    .map-link:hover,
-    .map-link:focus {
+    .map-link:hover,.map-link:focus {
     color: var(--focus-text-color);
     }
 
