@@ -33,12 +33,14 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
+/* логотип */
   .logo-item-blue {
       font-family: var(--bold-font-weight);
       color: var(--accent-color);
       font-family: 'Raleway', sans-serif;
       font-size: 26px;
    }
+   
 .header-studio {
   color: var(--black-color);
   font-size: 26px;
