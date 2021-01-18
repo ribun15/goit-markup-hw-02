@@ -1,4 +1,60 @@
 :root {
-    --primary-text-color: #757575:
-    -
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --primary-background-color: #2f303a;
+    --secondary-background-color: #f5f4fa;
+    --black-color: #000000;
+    --secondary-accent-color: #188ce8;
+    --bold-font-weight: 700;
+    --regular-font-weight:400;
+    --medium-font-weight: 500;
+    --primery-letter-spacing: 0.03em;
 }
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+  body {
+    background-color: var(--primary-white-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-font-weight);
+    letter-spacing: var(--letter-spacing);
+    line-height: 1.39;
+  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  .logo-item-blue {
+      font-family: var(--bold-font-weight);
+      color: var(--accent-color);
+      font-family: 'Raleway', sans-serif;
+      font-size: 26px;
+   }
+.header-studio {
+  color: var(--black-color);
+  font-size: 26px;
+  }
+    .navigation:hover,:focus
+    {
+      color: var(--accent-color);
+    }
+   
+    .navigation-link {
+      font-size: 26px;
+      line-height: 1.38;
+}
+
+    .navigation-contact: var(--primary-text-color):focus, :hover
+    {
+       color: var(--accent-color);
+       text-color: var(--black-color)
+    }
