@@ -11,13 +11,13 @@
     --regular-font-weight:400;
     --medium-font-weight: 500;
     --primery-letter-spacing: 0.03em;
-}
+    }
 
-a {
-    text-decoration: none;
-}
+    a {
+        text-decoration: none;
+      }
 
-  body {
+    body {
     background-color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
     font-weight: var(--bold-font-weight);
@@ -25,11 +25,13 @@ a {
     line-height: 1.39;
     color:var(--black-color);
     }
-  * {
+
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
+
 /* логотип */
     .logo-item-blue {
     font-family: var(--bold-font-weight);
@@ -43,16 +45,16 @@ a {
     color: var(--black-color);
     font-size: 26px;
     }
-    /* навігаці сайту */
-    .navigation-link:hover, :focus
-    {     
+      
+     /* навігаці сайту */
+    .navigation-link:hover, :focus {     
       color: var(--accent-color);
     }
 
     .navigation-link {
     font-weight: var(--medium-font-weight);
     font-size: 14px;
-    line-height: 1.38;
+    line-height: 1.385;
     color: #000000;
     }
 
@@ -63,25 +65,74 @@ a {
     .navigation-link-adress {
     color: var(--accent-color);
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.145;
     color: #757575;
     }
-    
-    .button-title:hover, :focus 
-    {
+   
+    /* button */
+    .button-title:hover, :focus {
       background-color: var(--accent-color);
     }
 
-    button
-     {
-           font-family: inherit;
-     }
+    button {
+    font-family: inherit;
+    }
+
     .button-title {
-      background-color: ##F5F4FA;
-      border-radius: 4px;
-      font-size: 16px;
-      line-height: 1.62;
+    background-color: ##F5F4FA;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.622;
     }
     
+    .my-work-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+    }
 
-     
+    .my-work-text {
+    font-size: 16px;
+    line-height: 1,875;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+    }
+
+    /* footer */
+    .footer {
+    background-color: var(--primary-background-color);
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    }
+
+    .footer .logo-studio {
+    color: var(--primary-white-color);
+    }
+
+    .map-link {
+    color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+    }
+
+    .footer-contacts-link:hover,
+    :focus {
+    color: var(--focus-text-color);
+    }
+
+    .map-link:hover,
+    .map-link:focus {
+    color: var(--focus-text-color);
+    }
+
+    .footer-contacts-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    }
