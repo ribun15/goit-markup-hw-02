@@ -40,12 +40,13 @@ button {
       font-family: 'Raleway', sans-serif;
       font-size: 26px;
    }
-   
+
 .header-studio {
+  font-weight: var(--bold-font-weight);
   color: var(--black-color);
   font-size: 26px;
   }
-    .navigation:hover,:focus
+    .navigation-link:hover, :focus
     {
       color: var(--accent-color);
     }
