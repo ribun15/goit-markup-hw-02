@@ -72,6 +72,22 @@ body {
   color: var(--black-color);
 }
 
+.navigation-link-studio {
+  color: var(--accent-color);
+  font-weight: var(--medium-font-weight);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-link-portfolio {
+  color: var(--accent-color);
+  font-weight: var(--medium-font-weight);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .navigation-link-adress:hover,
 .navigation-link-adress:focus {
   color: var(--accent-color);
