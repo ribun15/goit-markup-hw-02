@@ -66,7 +66,7 @@ body {
 }
 
 .navigation-link {
-    font-weight: var(--medium-font-weight);
+  font-weight: var(--medium-font-weight);
   font-size: 14px;
   line-height: 1.38;
   color: var(--black-color);
@@ -99,17 +99,18 @@ body {
 }
 
 .my-work-title {
+  color: var(--secondary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
 }
 
 .my-work-text {
+  color: var(--primary-text-color);
+  font-style: var(--regular-font-weight);
+  font-weight: var(--regular-font-weight);
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
 }
 
 /* footer */
@@ -149,6 +150,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .hero-title {
   font-weight: var(--black-font-weight);
   font-size: 44px;
@@ -168,7 +170,7 @@ body {
 }
 
 .hero-button {
-  font-weight: bold;
+  font-weight: var(--bold-font-weight);
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -178,25 +180,26 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.future-title {
-font-weight: var(--bold-font-weight);
-font-size: 14px;
-line-height: 1.14;
-text-transform: uppercase;
-color: var(--secondary-text-color);
 
+.future-title {
+  font-weight: var(--bold-font-weight);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
+
 .features-title {
   font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
   color: var(--secondary-text-color);
-  }
+}
 
 .features-text {
   font-size: 14px;
   line-height: 1.17;
-  font-weight: 400;
+  font-weight: var(--regular-font-weight);
 }
 
 .team-fore-person {
@@ -204,15 +207,31 @@ color: var(--secondary-text-color);
 }
 
 .team-list-profession {
+  color: var(--primary-text-color);
   font-weight: var(--regular-font-weight);
   font-size: 16px;
   line-height: 1.17;
-  color: var(--primary-text-color);
+  text-align: center;
 }
 
 .team-title {
   color: var(--secondary-text-color);
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
+}
+
+.team-title {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team-list-name {
+  color: var(--secondary-text-color);
+  font-weight: var(--medium-font-weight);
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
 }
