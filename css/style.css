@@ -38,6 +38,7 @@ ul {
 }
 
 body {
+  margin: 0;
   background-color: var(--primary-white-color);
   font-family: 'Roboto', sans-serif;
   font-weight: var(--bold-font-weight);
@@ -94,17 +95,33 @@ body {
 }
 
 .navigation-link-adress {
-  font-weight: normal;
-  color: var(--accent-color);
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: var(--medium-font-weight);
+  font-style: normal;
   color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.navigation-link-tel:hover,
+.navigation-link-tel:focus {
+  color: var(--accent-color);
+}
+
+.navigation-link-tel {
+  font-weight: var(--medium-font-weight);
+  font-style: normal;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 /* button */
 .button-title:hover,
 .button-title:focus {
   background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .button-title {
@@ -119,6 +136,17 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+
+.about-title {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: var(--bold-font-weight);
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
 }
 
 .my-work-text {
@@ -170,7 +198,7 @@ body {
 .hero-title {
   font-weight: var(--black-font-weight);
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -216,6 +244,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   font-weight: var(--regular-font-weight);
+  color: var(--primary-text-color);
 }
 
 .team-fore-person {
