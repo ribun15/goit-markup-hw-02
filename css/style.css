@@ -42,7 +42,7 @@ body {
   background-color: var(--primary-white-color);
   font-family: 'Roboto', sans-serif;
   font-weight: var(--bold-font-weight);
-  letter-spacing: var(--letter-spacing);
+  letter-spacing: var(--primery-letter-spacing);
   line-height: 1.39;
   color: var(--black-color);
 }
@@ -51,15 +51,14 @@ body {
 .logo-item-blue {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 31px;
   color: var(--accent-color);
   }
 
 .logo-item-studio {
-  font-weight: var(--bold-font-weight);
   color: var(--black-color);
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 31px;
   }
 
 /* навігаці сайту */
@@ -97,20 +96,6 @@ body {
 }
 
 .navigation-link-adress {
-  font-weight: var(--medium-font-weight);
-  font-style: normal;
-  color: var(--primary-text-color);
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.navigation-link-tel:hover,
-.navigation-link-tel:focus {
-  color: var(--accent-color);
-}
-
-.navigation-link-tel {
   font-weight: var(--medium-font-weight);
   font-style: normal;
   color: var(--primary-text-color);
