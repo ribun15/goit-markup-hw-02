@@ -51,14 +51,16 @@ body {
 .logo-item-blue {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  line-height: 1.19;
   color: var(--accent-color);
-}
+  }
 
 .logo-item-studio {
   font-weight: var(--bold-font-weight);
   color: var(--black-color);
   font-size: 26px;
-}
+  line-height: 1.19;
+  }
 
 /* навігаці сайту */
 .navigation-link:hover,
