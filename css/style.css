@@ -97,7 +97,6 @@ body {
 
 .navigation-link-adress {
   font-weight: var(--medium-font-weight);
-  font-style: normal;
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 16px;
@@ -127,7 +126,6 @@ body {
 
 .about-title {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: var(--bold-font-weight);
   font-size: 36px;
   line-height: 42px;
@@ -138,7 +136,6 @@ body {
 
 .my-work-text {
   color: var(--primary-text-color);
-  font-style: var(--regular-font-weight);
   font-weight: var(--regular-font-weight);
   font-size: 16px;
   line-height: 1.87;
